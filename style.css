@@ -249,6 +249,7 @@ section{
     background:#2563eb;
     border-radius:10px;
     color:white;
+    text-align: center;
     text-decoration:none;
     transition:.3s;
 }
@@ -295,6 +296,30 @@ footer{
     .texto h1{
         font-size:3rem;
     }
+     header{
+        padding:15px 5%;
+    }
+
+    nav{
+        justify-content:space-between;
+    }
+
+    ul{
+        display:none;
+    }
+
+    .social{
+        gap:15px;
+    }
+
+    .social a i{
+        font-size:1.3rem;
+    }
+
+    .social a span{
+        font-size:.7rem;
+    }
+
 
 }
 /* Efeito de digitação */
